@@ -1,4 +1,31 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "academic" # the name of your site, e.g. ACME Corp.
-description: "a Jekyll theme for academia"
+title: "Zane Kelley"
+description: "Personal academic website"
+url: "https://zanekelley.github.io"
+baseurl: ""
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+paginate_path: "/blog/page:num"
+
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Publications"
+    url: /publications/
+  - title: "Contact"
+    url: /contact/
+
+author:
+  name: "Zane Kelley"
+  email: "zane.kelley@nyu.edu"
+  avatar: ""  # leave blank to remove homepage image
