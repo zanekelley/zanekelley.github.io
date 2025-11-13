@@ -1,0 +1,4 @@
+/* Hide the profile image on the homepage */
+.profile-image {
+  display: none !important;
+}
