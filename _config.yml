@@ -1,4 +1,12 @@
-title: Professional Website
-description: hopefully it works
-theme: academic-jekyll-theme
-author: Zane Kelley
+title: Zane Kelley
+baseurl: ""
+url: "https://zanekelley.github.io" 
+description: >-
+  Personal website and academic portfolio.
+
+remote_theme: LeNPaul/academic
+
+plugins:
+  - jekyll-remote-theme
+
+markdown: kramdown
