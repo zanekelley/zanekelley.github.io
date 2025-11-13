@@ -50,6 +50,3 @@ author:
   name: "Zane Kelley"
   email: "zane.kelley@nyu.edu"
   # You can also add: google_scholar, orcid, etc.
-
-include:
-  - assets/css/custom.css
