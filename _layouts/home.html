@@ -2,30 +2,8 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
-  <!-- Research Section -->
-  <div class="col-md-6">
-    <h2 class="fw-bold border-bottom pb-3 mb-4">Research</h2>
-    {{ content }}
-  </div>
+<h1 class="fw-bold text-center mt-5 mb-4">Zane Kelley</h1>
 
+<h2 class="fw-bold border-bottom pb-2 mb-3">Researcher researching stress and social support</h2>
+<h3 class="fw-bold border-bottom pb-1 mb-2">Now at the West Interpersonal Lab at New York University</h3>
 
-<!-- Publications Section -->
-<section class="mb-5">
-  <h2 class="fw-bold border-bottom pb-3 mb-4">Publications</h2>
-  {% include publications.html %}
-</section>
-
-<!-- Updates / Blog Section -->
-<section class="mb-5">
-  <h2 class="fw-bold border-bottom pb-3 mb-4">Updates</h2>
-  <div class="list-group">
-    {% for post in site.posts %}
-      <a href="{{ site.github.url }}/{{ post.url }}" class="list-group-item list-group-item-action">
-        <strong>{{ post.title }}</strong>
-        <br>
-        <small class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</small>
-      </a>
-    {% endfor %}
-  </div>
-</section>
