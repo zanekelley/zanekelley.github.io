@@ -1,12 +1,54 @@
-title: Zane Kelley
-baseurl: ""
-url: "https://zanekelley.github.io" 
-description: >-
-  Personal website and academic portfolio.
+# ----------------------------
+# Basic site settings
+# ----------------------------
+title: "Zane Kelley"
+description: "Personal academic website"
+url: "https://zanekelley.github.io"  # Replace with your GitHub Pages URL
+baseurl: ""  # Leave blank for user site
 
-remote_theme: LeNPaul/academic
-
+# ----------------------------
+# Theme and plugins
+# ----------------------------
+remote_theme: "LeNPaul/academic"
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
 
+# ----------------------------
+# Markdown settings
+# ----------------------------
 markdown: kramdown
+highlighter: rouge
+
+# ----------------------------
+# Build settings
+# ----------------------------
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# ----------------------------
+# Navigation (top menu links)
+# ----------------------------
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Publications"
+    url: /publications/
+  - title: "Contact"
+    url: /contact/
+
+# ----------------------------
+# Author information
+# ----------------------------
+author:
+  name: "Zane Kelley"
+  email: "zane.kelley@nyu.edu"
+  # You can also add: google_scholar, orcid, etc.
+
+
