@@ -4,26 +4,15 @@ url: "https://zanekelley.github.io"
 baseurl: ""
 
 plugins:
-  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
 
 markdown: kramdown
 highlighter: rouge
-paginate: 5
-paginate_path: "/blog/page:num"
 
 navigation:
-  - title: "Zane Kelley"
+  - title: ""
     url: /
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Publications"
-    url: /publications/
-  - title: "Contact"
-    url: /contact/
 
 author:
   name: "Zane Kelley"
